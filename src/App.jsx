@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Accordion from './components/Accordion';
 import Footer from './components/Footer';
 import img1 from "./assets/img/img1.jpg";
-import img2 from "./assets/img/img2.jpg";
+import img2 from "./assets/img/img2.png";
 
 import "./App.css";
 
