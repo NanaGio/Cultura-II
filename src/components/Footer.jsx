@@ -40,7 +40,7 @@ function Footer() {
       <footer className="app-footer">
         <h2 className="footer-title">Cultura+</h2>
         <p className="footer-copyright">2024 ©</p>
-        <p className="footer-credits">Colegiado de Administração e Sistemas de Informação</p>
+        <p className="footer-credits">Colegiado de Sistemas de Informação - UNEX</p>
       </footer>
     </>
   );

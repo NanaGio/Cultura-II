@@ -14,6 +14,17 @@ const HeaderStyles = () => (
       margin: 0 auto;
     }
 
+    .app-header::after {
+      content: "";
+      position: absolute;
+      top: 60px; /* joga o fade logo abaixo */
+      left: 0;
+      width: 100%;
+      height: 20px;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.15), transparent);
+      pointer-events: none; /* não atrapalha cliques */
+    }
+
     .header-title {
       font-size: 1.5rem;
       font-weight: 700;
