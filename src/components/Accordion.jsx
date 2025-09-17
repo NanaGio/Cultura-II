@@ -13,9 +13,9 @@ const AccordionStyles = () => (
       justify-content: space-between;
       align-items: center;
       padding: 1rem;
-      background-color: #5EEAD4;
-      color: #1F2937;
-      font-weight: 700;
+      background-color: #83D4B9;
+      color: #ffffffff;
+      font-weight: 800;
       border-radius: 0.5rem;
       box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
       border: none;

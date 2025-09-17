@@ -74,20 +74,55 @@ function App() {
                 assistência social, educação, assistência jurídica, e regularização migratória. Onde buscar apoio:</p>
               <a
                 href="https://prefeitura.sp.gov.br/web/imigrantes_e_trabalho_decente/crai"
+                target= "_blank"
+                rel="noopener noreferrer"
+                style={{color: "#2563EB", fontWeight: "600", textDecoration: "underline"}}
               >
                 · CRAI 
               </a>
               <br />
               <a
                 href="https://portaldeimigracao.mj.gov.br/pt/"
+                target= "_blank"
+                rel="noopener noreferrer"
+                style={{color: "#2563EB", fontWeight: "600", textDecoration: "underline"}}
               >
                 · Ministério da Justiça e Segurança Pública
               </a>
-              <p>Encontre ONGs:</p>
+              
+              </>
+            }
+          />
+          
+          <Accordion
+            title="Apoio Social"
+            content={
+              <>
+              <p>Para apoio social, encontre ONGs:</p>
               <a
                 href="https://museudaimigracao.org.br/iniciativas-para-migrantes-e-refugiados"
+                target= "_blank"
+                rel="noopener noreferrer"
+                style={{color: "#2563EB", fontWeight: "600", textDecoration: "underline"}}
               >
-                Sugestão de ONGs pelo Museu da Imigração
+                ONGs sugeridas pelo museu da imigração
+              </a>
+              </>
+            }
+          />
+
+          <Accordion
+            title="Aprendizado de idiomas"
+            content={
+              <>
+              <p>Se aprofunde e entenda melhor o português:</p>
+              <a
+                href="https://www.andifes.org.br/institucional/redeisf/"
+                target= "_blank"
+                rel="noopener noreferrer"
+                style={{color: "#2563EB", fontWeight: "600", textDecoration: "underline"}}
+              >
+                Aulas de português pela ANDIFES
               </a>
               </>
             }
